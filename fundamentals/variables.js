@@ -4,6 +4,7 @@ let boolean = true;
 let nullValue = null;
 let undefinedValue = undefined;
 
+
 // number = 5;
 
 // console.log(number + ' is a type of ' + typeof number);
@@ -29,7 +30,7 @@ let undefinedValue = undefined;
 // console.log(nullValue + ' is a type of ' + typeof nullValue);
 // console.log(undefinedValue + ' is a type of ' + typeof undefinedValue);
 
-const array = [1,2,3];
+// const array = [1,2,3];
 // const anything = [1, true, 'word', number];
 
 // console.log(array + ' is a type of ' + typeof array);
@@ -58,10 +59,14 @@ const object = {
         street: "123 Main St",
         city: "Anytown",
         state: "CA"
+    },
+    whoAmI() {
+        console.log(this.name + ' lives in ' + this.address.city + ' and is ' + this.age + ' years old');
     }
 };
 
-// console.log(object + ' is a type of ' + typeof object);
+console.log(object + ' is a type of ' + typeof object);
 
-// console.log(object.name + ' lives in ' + object.address.city + ' and is ' + object.age + ' years old');
-// console.log(object.city + ' is a type of ' + typeof object.city);
+console.log(object.city + ' is a type of ' + typeof object.city);
+
+object.whoAmI();

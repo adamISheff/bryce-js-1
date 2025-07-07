@@ -26,15 +26,19 @@ const car = {
   }
 };
 
-console.log(car);
+// console.log(car);
 
+console.log(car.isRunning);
 car.drive();
+console.log(car.isRunning);
 car.stop();
+console.log(car.isRunning);
 
-console.log(car.getMileage());
-console.log(car.getColor());
 
-car.mileage = 10001;
+// console.log(car.getMileage());
+// console.log(car.getColor());
 
-console.log(car.getMileage());
-console.log(car.getColor());
+// car.mileage = 10001;
+
+// console.log(car.getMileage());
+// console.log(car.getColor());
