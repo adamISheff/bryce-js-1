@@ -36,12 +36,20 @@
 
 // 7. Some stuff:
 // a. Declare an array numbers with at least 5 different numbers
-const array = [1,2,3,4,5,6,7,8,9,10]
+// const array = [1,2,3,4,5,6,7,8,9,10]
+const array = [11,12,13,14,15,16,17,18,19,20]
 // b. define a function called double. This function has one argument and returns that argument multiplied by 2
-function double(arg) {
-    return arg * 2;
+// function double(arg) {
+//     return arg * 2;
+// }
+function multiplied(gra) {
+        return gra * 10
 }
+
 // c. Using forEach method on numbers - console log each number doubled using your double function
+// array.forEach(element => {
+//     console.log(double(element))
+// });
 array.forEach(element => {
-    console.log(double(element))
+    console.log(multiplied(element))
 });
