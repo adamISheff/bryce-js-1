@@ -69,3 +69,20 @@ function averageOfnumbers(arr) {
 }
 console.log(averageOfnumbers([943,711,276,895,2025]))
 // 7. Create a function that takes an array of numbers and returns the median of the numbers
+function findmedian(arr) {
+   const newArr = [...arr]; 
+  newArr.sort((a, b) => a - b);
+
+  // find middle number
+const variable = arr.length/2
+
+
+  // 1 or 2 middle numbers
+  
+  // if 1 return the number
+  
+  // if 2 return average
+  
+  return newArr;
+
+}
